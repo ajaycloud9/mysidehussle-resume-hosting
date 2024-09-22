@@ -1,0 +1,13 @@
+# cat /lib/systemd/system/goweb.service
+# Article: https://www.atlantic.net/dedicated-server-hosting/deploying-a-go-web-application-using-nginx-on-ubuntu-22-04/
+[Unit]
+Description=goweb
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5s
+ExecStart=/home/homelab/git/mysidehussle-resume-hosting/go-webserver/main #Location of go build
+
+[Install]
+WantedBy=multi-user.target

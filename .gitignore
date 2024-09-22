@@ -1,0 +1,37 @@
+# Build artifacts
+/bin/
+/obj/
+
+# Go module files
+/vendor/
+*.lock
+
+# Compiled binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Test coverage files
+*.out
+
+# IDE and editor files
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.vscode/
+*.code-workspace
+
+# GoLand
+*.iml
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
